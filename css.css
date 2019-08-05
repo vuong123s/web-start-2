@@ -1,0 +1,26 @@
+.style{
+	display: flex;
+}
+
+.css{
+	padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background: #999;
+}
+
+.vs{
+	padding:10px;
+	padding-left: 50px; 
+	opacity: 0;
+}
+
+.style:hover .css{
+	background: #b64321;
+}
+
+.style:hover .vs{
+	transform: translateX(-40px);
+	transition: all 0.5s;
+	opacity: 1;
+}
